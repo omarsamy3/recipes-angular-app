@@ -1,6 +1,3 @@
-Certainly! Here's the complete ReadMe file written in Markdown format:
-
-```
 # Recipes App
 
 This project is an Angular application for a Recipes App, allowing users to search for recipes based on various criteria such as ingredients, dietary preferences, and cooking time.
@@ -26,27 +23,26 @@ Follow the instructions below to get started with the Recipes App:
 
 1. Clone the repository:
 
-```
 git clone https://github.com/your-username/recipes-app.git
-```
+
 
 2. Navigate to the project directory:
 
-```
+
 cd recipes-app
-```
+
 
 3. Install the dependencies:
 
-```
+
 npm install
-```
+
 
 4. Start the development server:
 
-```
+
 ng serve
-```
+
 
 5. Open your browser and visit `http://localhost:4200` to see the application.
 
@@ -56,9 +52,9 @@ To deploy the Recipes App, follow these steps:
 
 1. Build the production version of the application:
 
-```
+
 ng build --prod
-```
+
 
 2. The optimized build artifacts will be generated in the `dist/` directory.
 
@@ -80,5 +76,5 @@ Please ensure that your contributions adhere to the project's coding standards a
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-```
+
 
