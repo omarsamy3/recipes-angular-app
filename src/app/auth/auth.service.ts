@@ -20,7 +20,7 @@ export interface AuthResponseData{
 export class AuthService{
   user = new BehaviorSubject<User>(null!);
   private tokenExpirationTimer: any;
-  
+
 
   constructor(
     private http: HttpClient,
@@ -73,8 +73,8 @@ export class AuthService{
     }
     const parsedUserData =  new User(
       userData.email,
-      userData.id, 
-      userData._token, 
+      userData.id,
+      userData._token,
       new Date(userData._tokenExpirationDate));
 
     if(parsedUserData.token){
@@ -83,7 +83,7 @@ export class AuthService{
         new Date(userData._tokenExpirationDate).getTime() - new Date().getTime()
         )
     }
-    
+
   }
 
   logout(){
@@ -99,7 +99,7 @@ export class AuthService{
   autoLogout(expirationDuration: number){
     this.tokenExpirationTimer =  setTimeout(() => {
       this.logout();
-    }, expirationDuration);  
+    }, expirationDuration);
   }
 
 
@@ -131,9 +131,9 @@ export class AuthService{
       new Date().getTime() + expiresIn * 1000
       );
     const user = new User(
-      email, 
-      userId, 
-      token, 
+      email,
+      userId,
+      token,
       expirationDate
     );
     this.user.next(user);
