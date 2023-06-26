@@ -1,14 +1,12 @@
 # Recipes App
 
-This project is an Angular application for a Recipes App, allowing users to search for recipes based on various criteria such as ingredients, dietary preferences, and cooking time.
+This project is an Angular application for a Recipes App, allowing users to add and save recipes based on various criteria such as ingredients, dietary preferences, and cooking time.
 
 ## Features
-
-- Search recipes based on keywords, ingredients, or categories
-- Filter recipes based on dietary preferences
-- Sort recipes by cooking time or popularity
+- Create your own recipe.
+- Edit it or delete it.
+- Save its component to the shopping list.
 - View detailed recipe information including ingredients and instructions
-- Save favorite recipes and create a personal recipe box
 
 ## Technologies Used
 
