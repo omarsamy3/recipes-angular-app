@@ -55,7 +55,7 @@ To deploy the Recipes App, follow these steps:
 3. Deploy the contents of the `dist/` directory to your chosen hosting platform.
 
 ## Demo
-You can try my website from here:(https://recipes-omar.netlify.app/auth)
+You can try my website from [here](https://recipes-omar.netlify.app)
 
 ## Contributing
 
