@@ -3,6 +3,7 @@
 This project is an Angular application for a Recipes App, allowing users to add and save recipes based on various criteria such as ingredients, dietary preferences, and cooking time.
 
 ## Features
+- Authentication and Authorization.
 - Create your own recipe.
 - Edit it or delete it.
 - Save its ingredients to the shopping list.
