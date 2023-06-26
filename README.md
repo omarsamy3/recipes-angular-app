@@ -21,25 +21,21 @@ Follow the instructions below to get started with the Recipes App:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/recipes-app.git
+- `git clone https://github.com/your-username/recipes-app.git`
 
 
 2. Navigate to the project directory:
 
-
-cd recipes-app
+- `cd recipes-app`
 
 
 3. Install the dependencies:
 
-
-npm install
+- `npm install`
 
 
 4. Start the development server:
-
-
-ng serve
+- `ng serve`
 
 
 5. Open your browser and visit `http://localhost:4200` to see the application.
@@ -49,9 +45,8 @@ ng serve
 To deploy the Recipes App, follow these steps:
 
 1. Build the production version of the application:
-
-
-ng build --prod
+   
+- `ng build --prod`
 
 
 2. The optimized build artifacts will be generated in the `dist/` directory.
