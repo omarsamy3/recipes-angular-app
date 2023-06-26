@@ -5,7 +5,7 @@ This project is an Angular application for a Recipes App, allowing users to add 
 ## Features
 - Create your own recipe.
 - Edit it or delete it.
-- Save its component to the shopping list.
+- Save its ingredients to the shopping list.
 - View detailed recipe information including ingredients and instructions
 
 ## Technologies Used
